@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200
   res.writeHead(201, { 'Content-Type': 'application/json' });
-Cres.write(JSON.stringify({ 'success': 'true', 'message': 'a new resource has been created' })); 
+Cres.write(JSON.stringify({ success: true, message: ' resource has been created' })); 
 res.end();
 })
 
